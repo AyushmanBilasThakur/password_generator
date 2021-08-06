@@ -1,0 +1,39 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1{
+    margin-bottom: 5px;
+}
+
+.top-section {
+    display: flex;
+}
+
+input{
+    padding: 10px;
+}
+
+.top-section > *{
+    flex-grow: 1;
+}
+
+.selections{
+    margin: 20px 0;
+}
+
+button{
+    cursor: pointer;
+}
+
+#generate{
+    width: 100%;
+    padding: 5px;
+}
